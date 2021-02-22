@@ -1,0 +1,78 @@
+.intro-title {
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    font-size: xxx-large;
+    padding: 14px 16px;
+    font-weight: bolder;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+    font-family: Arial;
+    
+}
+
+.nav-button {
+    display: inline;
+    float: left;
+    display: block;
+    background-color: lightgreen;
+    padding: 14px 16px;
+}
+
+.nav-button-right {
+    float: right;
+    display: block;
+    background-color: lightgreen;
+    padding: 14px 16px;
+}
+
+.scroll {
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.home-text {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.unorder-list {
+    display: table;
+    margin: 0 auto;
+    font-family:'Segoe UI';
+}
+
+* {box-sizing: border-box;}
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+    height: 100%;
+    width: auto;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+#travel-pics {
+    background: #356;
+  }
+
+.font-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
