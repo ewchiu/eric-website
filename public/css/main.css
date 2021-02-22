@@ -36,8 +36,7 @@
     height: 200px;
     overflow: scroll;
     padding: 5px;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
     font-family: "Segoe UI";
 }
 
@@ -66,10 +65,6 @@
 .carousel-item {
     text-align: center;
 }
-
-#travel-pics {
-    background: #356;
-  }
 
 .font-icon {
     height: 100px;
