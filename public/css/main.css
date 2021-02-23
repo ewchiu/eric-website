@@ -11,23 +11,27 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkgray;
-    font-family: Arial;
-    
+    background-color: midnightblue;
+}
+
+.nav-bar a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 16px
+}
+
+.nav-bar a:hover {
+    background-color: whitesmoke;
+    color: black;
 }
 
 .nav-button {
     display: inline;
     float: left;
-    display: block;
-    background-color: lightgreen;
-    padding: 14px 16px;
-}
-
-.nav-button-right {
-    float: right;
-    display: block;
-    background-color: lightgreen;
+    color: white;
     padding: 14px 16px;
 }
 
