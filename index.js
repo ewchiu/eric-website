@@ -22,6 +22,10 @@ app.get("/travel", (req, res) => {
     res.render('travel')
 })
 
+app.get("/calculator", (req, res) => {
+    res.render('calculator')
+})
+
 app.get("/contact", (req, res) => {
     res.render('contact')
 })
